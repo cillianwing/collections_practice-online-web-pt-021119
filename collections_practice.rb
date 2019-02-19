@@ -22,6 +22,10 @@ def swap_elements(array)
   array
 end
 
+def swap_elements_from_to(array)
+  
+end
+
 def reverse_array(ints)
   ints.reverse
 end
