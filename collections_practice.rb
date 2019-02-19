@@ -47,7 +47,9 @@ end
 
 def add_s(strings)
   strings.each_with_index.collect do |element, index|
-    if index != 1 
+    if index == 1 
+      element 
+    elsif index != 1 
       element += "s"
     end
   end
